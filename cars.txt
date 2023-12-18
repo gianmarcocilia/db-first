@@ -1,0 +1,15 @@
+id - SMALLINT - UNSIGNED - PRIMARY_KEY(NOTNULL - UNIQUE) - AUTOINCREMENT
+targa - VARCHAR(16) - NOTNULL - UNIQUE
+marchio_automobilistico - VARCHAR(255) - NOTNULL
+modello - VARCHAR(255) - NOTNULL
+price - DECIMAL(9,2) - NOTNULL 
+description - TEXT - NULL
+anno_produzione - YEAR - NOTNULL
+cilindrata_cc - SMALLINT - UNSIGNED - NOTNULL
+porte - BIT - NULL
+peso_kg - SMALLINT - UNSIGNED - NULL
+misure - VARCHAR(255) - NULL
+poster - VARCHAR(255) - NULL
+is_used - TINYINT - NOTNULL - DEFAULT(0)
+batteria - VARCHAR(16) - NOTNULL
+velocità_max_km/h - SMALLINT - UNSIGNED - NULL
